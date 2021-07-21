@@ -1,6 +1,6 @@
 package com.interview.ds.questions;
 
-public class GredlinTrackProblem {
+public class GredlinTrainTrackProblem {
 	
 	public static void findTheLampPosition(int n, int m, int[][] a) {
 		int rowLength = a.length;
