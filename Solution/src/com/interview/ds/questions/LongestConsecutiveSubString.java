@@ -1,4 +1,4 @@
-package com.interview;
+package com.interview.ds.questions;
 
 public class LongestConsecutiveSubString {
 	
