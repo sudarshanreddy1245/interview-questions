@@ -3,7 +3,7 @@ package com.interview.multithreading.questions;
 public class SequenceOfTwoThreads {
 	static boolean t1turn = false;
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		Object lock = new Object();
 		
 		Thread t1 = new Thread(new Runnable() {
