@@ -12,7 +12,9 @@ public class ReverseLinkedList {
 		Node result = reverseLinkedList(node1);
 		if(result != null)
 			print(result);
+		
 	}
+	
 	
 	public static void print(Node node) {
 		Node temp = node;

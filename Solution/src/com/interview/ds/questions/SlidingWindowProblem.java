@@ -9,9 +9,12 @@ public class SlidingWindowProblem {
 	public static void main(String[] args) {
 	    int arr[] = {12, 1, 78, 90, 57, 89, 56};
 	    int w = 3;
-	    //brutForceApproch(arr, w);
+	    brutForceApproch(arr, w);
 	    maximumOfGivenWindow(arr,w);
 	    minimumOfGivenWindow(arr,w);
+	    
+	  
+	   
 	  }
 	
 	
@@ -78,7 +81,6 @@ public class SlidingWindowProblem {
 	public static void brutForceApproch(int[] arr, int w) {
 	    for(int i=0;i<arr.length;i++) {
 	      int[] windowArray = new int[w];
-
 	      if ((i+w) > arr.length) {
 	        break;
 	      } else {
